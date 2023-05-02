@@ -1,0 +1,16 @@
+class Dog:
+    def init(self,bread,color, weight):
+        self.bread=bread
+        self.color=color
+        self.weight=weight
+    def Bark(self):
+        print('every dog bark')
+k=Dog('labra','black',90)
+m=Dog('jerman','brown',80)
+n=Dog('charlie','light',70)
+k.Bark()
+m.Bark()
+n.Bark()
+print('Dog1:',k.bread, k.color, k.weight)
+print('Dog2:',m.bread, m.color, m.weight)
+print('Dog3:',n.bread, n.color, n.weight)
